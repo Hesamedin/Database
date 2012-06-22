@@ -1,0 +1,5 @@
+<resources>
+    <color name="StaticText">#F2E1AC</color>
+    <color name="DynamicText">#83FAEF</color>
+    <color name="White">#000000</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Database</string>
+    <string name="tvName">Name: </string>
+    <string name="etName_hint">Enter name</string>
+    <string name="tvPhone">Phone: </string>
+    <string name="etPhone_hint">Enter phone number</string>
+    <string name="btnAdd">Add to Database</string>
+    <string name="test_01">Id</string>
+    <string name="test_02">Name</string>
+    <string name="test_03">Phone</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android			= "http://schemas.android.com/apk/res/android"
+    android:id				= "@+id/rlContainer"
+    android:layout_width	= "fill_parent"
+    android:layout_height	= "wrap_content" >
+    
+    <View
+	    android:layout_width	= "wrap_content"
+	    android:layout_height	= "40dp" />
+
+    <TextView
+        android:id						= "@+id/tvId"
+        android:layout_width			= "wrap_content"
+        android:layout_height			= "wrap_content"
+        android:layout_alignParentLeft	= "true"
+        android:layout_centerVertical	= "true"
+        android:text					= "@string/test_01"
+        android:layout_marginLeft		= "10dip"
+        android:singleLine				= "true"
+        android:textAppearance			= "?android:attr/textAppearanceLarge"
+        android:textColor				= "@color/DynamicText" />
+    
+    <TextView
+        android:id						= "@+id/tvName"
+        android:layout_width			= "wrap_content"
+        android:layout_height			= "wrap_content"
+        android:layout_centerVertical	= "true"
+        android:text					= "@string/test_02"
+        android:layout_marginLeft		= "10dip"
+        android:singleLine				= "true"
+        android:layout_toRightOf		= "@id/tvId"
+        android:textAppearance			= "?android:attr/textAppearanceLarge"
+        android:textColor				= "@color/DynamicText" />
+    
+    <TextView
+        android:id						= "@+id/tvPhone"
+        android:layout_width			= "wrap_content"
+        android:layout_height			= "wrap_content"
+        android:layout_centerVertical	= "true"
+        android:text					= "@string/test_03"
+        android:layout_marginLeft		= "10dip"
+        android:singleLine				= "true"
+        android:layout_toRightOf		= "@id/tvName"
+        android:textAppearance			= "?android:attr/textAppearanceLarge"
+        android:textColor				= "@color/DynamicText" />
+
+</RelativeLayout>

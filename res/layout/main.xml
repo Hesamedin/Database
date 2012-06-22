@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android			= "http://schemas.android.com/apk/res/android"
+    android:layout_width	= "fill_parent"
+    android:layout_height	= "fill_parent"
+    android:orientation		= "vertical"
+    android:background		= "@drawable/background" >
+
+    
+    <RelativeLayout 
+        android:id				= "@+id/row1"
+        android:layout_width	= "fill_parent"
+    	android:layout_height	= "wrap_content" >
+    	
+	    <TextView
+	        android:id						= "@+id/tvName"
+	        android:layout_width			= "wrap_content"
+	        android:layout_height			= "wrap_content"
+	        android:layout_alignParentLeft	= "true"
+	        android:layout_alignParentTop	= "true"
+	        android:layout_marginTop		= "20dp"
+	        android:layout_marginLeft		= "10dp"
+	        android:text					= "@string/tvName"
+	        android:textAppearance			= "?android:attr/textAppearanceLarge"
+	        android:textColor				= "@color/StaticText" />
+	
+	    <EditText
+	        android:id						= "@+id/etName"
+	        android:layout_width			= "fill_parent"
+	        android:layout_height			= "wrap_content"
+	        android:layout_alignBaseline	= "@+id/tvName"
+	        android:layout_alignBottom		= "@+id/tvName"
+	        android:layout_toRightOf		= "@+id/tvName"
+	        android:ems						= "10"
+	        android:layout_marginRight		= "10dp"
+	        android:inputType				= "text"
+	        android:hint					= "@string/etName_hint"
+	        android:layout_marginLeft		= "16dip"
+	        android:background				= "@drawable/et_background"
+	        android:textColor				= "@color/DynamicText" />
+    </RelativeLayout>
+    
+    
+    <RelativeLayout 
+        android:id				= "@+id/row2"
+        android:layout_width	= "fill_parent"
+    	android:layout_height	= "wrap_content" >
+    	
+	    <TextView
+	        android:id						= "@+id/tvPhone"
+	        android:layout_width			= "wrap_content"
+	        android:layout_height			= "wrap_content"
+	        android:layout_alignParentLeft	= "true"
+	        android:layout_alignParentTop	= "true"
+	        android:layout_marginTop		= "20dp"
+	        android:layout_marginLeft		= "10dp"
+	        android:text					= "@string/tvPhone"
+	        android:textAppearance			= "?android:attr/textAppearanceLarge"
+	        android:textColor				= "@color/StaticText" />
+	
+	    <EditText
+	        android:id						= "@+id/etPhone"
+	        android:layout_width			= "fill_parent"
+	        android:layout_height			= "wrap_content"
+	        android:layout_alignBaseline	= "@+id/tvPhone"
+	        android:layout_alignBottom		= "@+id/tvPhone"
+	        android:layout_toRightOf		= "@+id/tvPhone"
+	        android:ems						= "10"
+	        android:layout_marginRight		= "10dp"
+	        android:inputType				= "phone"
+	        android:hint					= "@string/etPhone_hint"
+	        android:layout_marginLeft		= "10dip"
+	        android:background				= "@drawable/et_background"
+	        android:textColor				= "@color/DynamicText" />
+    </RelativeLayout>
+    
+    
+    <Button 
+        android:id					= "@+id/btnAddToDatabase" 
+        android:layout_width		= "fill_parent"
+		android:layout_height		= "wrap_content"
+		android:layout_margin		= "20dip"
+		android:background			= "@drawable/btn_blue"
+		android:textColor			= "@color/StaticText"
+		android:gravity				= "center"
+		android:textSize			= "30sp"
+		android:textStyle			= "bold"
+		android:shadowColor			= "@color/White"
+		android:shadowDx			= "1"
+		android:shadowDy			= "1"
+		android:shadowRadius		= "2"
+		android:text				= "@string/btnAdd" />
+    
+    <ListView
+        android:id				= "@+id/listview"
+        android:layout_width	= "fill_parent"
+        android:layout_height	= "wrap_content"
+        android:cacheColorHint	= "#00000000" />
+</LinearLayout>

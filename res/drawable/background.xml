@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+
+	<gradient
+	    android:startColor		= "#F2836B"
+	    android:endColor		= "#CD2C24"
+	    android:gradientRadius	= "300"
+	    android:type			= "sweep"/>
+	
+</shape>
